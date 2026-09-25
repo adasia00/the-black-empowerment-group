@@ -1,6 +1,6 @@
 # The Black Empowerment Group
 
-A standalone website built with Next.js 15, React, TypeScript, and Tailwind CSS.
+A standalone website built with Next.js 15, React, TypeScript, and custom CSS.
 
 ## Pages
 
@@ -29,5 +29,3 @@ The contact form is currently a front-end preview and does not deliver submissio
 ## GitHub Pages
 
 The project is configured for static export. The included GitHub Actions workflow deploys the `main` branch to GitHub Pages at `/the-black-empowerment-group/`. Set the repository's Pages source to **GitHub Actions** in its settings.
-
-Large source videos and the source portfolio PDF are excluded from Git to keep the repository and deployment artifact within hosting limits. They remain in the local project folder.

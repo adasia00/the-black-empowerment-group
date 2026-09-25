@@ -12,9 +12,6 @@ out/
 
 # Keep the separate copied project out of this repository.
 /sunny-side-reunion/
-/videos/
-/public/videos/
-/TBEG - Business Portfolio Summary.pdf
 
 # Production
 build/
