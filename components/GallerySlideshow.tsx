@@ -8,17 +8,19 @@ type GallerySlide = {
   alt: string;
 };
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 const gallerySlides: GallerySlide[] = [
-  { src: "/gallery/e68af31d-17f7-4766-9447-b106bd16207d.JPG", alt: "Gallery photo 1" },
-  { src: "/gallery/dbcb52e0-5c24-4f31-8ead-d7a9b67a90d2.JPG", alt: "Gallery photo 2" },
-  { src: "/gallery/c9373742-e27f-4c11-8f05-993e067f34b1.JPG", alt: "Gallery photo 3" },
-  { src: "/gallery/c3c577a7-716e-4217-8b6f-81455fad73ee.JPG", alt: "Gallery photo 4" },
-  { src: "/gallery/bcca9e0b-d5ee-4253-924a-bfb7e167b547.JPG", alt: "Gallery photo 5" },
-  { src: "/gallery/a4e8bdf4-c125-446f-a09c-bf2a8ad9cd9c.JPG", alt: "Gallery photo 6" },
-  { src: "/gallery/a2f04c0c-76f5-4c34-b5c6-e97679930aa9.JPG", alt: "Gallery photo 7" },
-  { src: "/gallery/6caff5b3-a965-424f-9d21-12b26e3d0755.JPG", alt: "Gallery photo 8" },
-  { src: "/gallery/69bc7502-e0e4-4e94-b89f-21b0d7bab19d.JPG", alt: "Gallery photo 9" },
-  { src: "/gallery/67e34baf-7b62-466d-a9ce-cdac5f18a4b2.JPG", alt: "Gallery photo 10" },
+  { src: `${basePath}/gallery/e68af31d-17f7-4766-9447-b106bd16207d.JPG`, alt: "Gallery photo 1" },
+  { src: `${basePath}/gallery/dbcb52e0-5c24-4f31-8ead-d7a9b67a90d2.JPG`, alt: "Gallery photo 2" },
+  { src: `${basePath}/gallery/c9373742-e27f-4c11-8f05-993e067f34b1.JPG`, alt: "Gallery photo 3" },
+  { src: `${basePath}/gallery/c3c577a7-716e-4217-8b6f-81455fad73ee.JPG`, alt: "Gallery photo 4" },
+  { src: `${basePath}/gallery/bcca9e0b-d5ee-4253-924a-bfb7e167b547.JPG`, alt: "Gallery photo 5" },
+  { src: `${basePath}/gallery/a4e8bdf4-c125-446f-a09c-bf2a8ad9cd9c.JPG`, alt: "Gallery photo 6" },
+  { src: `${basePath}/gallery/a2f04c0c-76f5-4c34-b5c6-e97679930aa9.JPG`, alt: "Gallery photo 7" },
+  { src: `${basePath}/gallery/6caff5b3-a965-424f-9d21-12b26e3d0755.JPG`, alt: "Gallery photo 8" },
+  { src: `${basePath}/gallery/69bc7502-e0e4-4e94-b89f-21b0d7bab19d.JPG`, alt: "Gallery photo 9" },
+  { src: `${basePath}/gallery/67e34baf-7b62-466d-a9ce-cdac5f18a4b2.JPG`, alt: "Gallery photo 10" },
 ];
 
 export default function GallerySlideshow() {
