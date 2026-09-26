@@ -12,7 +12,7 @@ export default function Home() {
         <div className="page-width home-hero-grid">
           <div className="home-hero-copy">
             <p className="eyebrow">A family-owned enterprise / Ghana + United States</p>
-            <h1>Rooted in faith.<br /><span>Built for prosperity.</span></h1>
+            <h1>End-to-End Services.<br /><span>To Help You Thrive.</span></h1>
             <p className="hero-lede">Bridging cultures, expertise, and international resources to create high-value developments and lasting connections between West Africa and its global diaspora.</p>
             <div className="hero-actions">
               <Link href="/services" className="button button-gold">Explore our services</Link>
@@ -54,7 +54,7 @@ export default function Home() {
 
       <section className="about-section section-pad" id="about-us">
         <div className="page-width about-grid">
-          <div className="about-marker"><span>BEG</span><span className="marker-line" /><span>People-led<br />by design</span></div>
+          <div className="about-marker"><span>TBEG</span><span className="marker-line" /><span>People-led<br />by design</span></div>
           <div>
             <p className="eyebrow">03 / About us</p>
             <h2>A shared vision across borders.</h2>
