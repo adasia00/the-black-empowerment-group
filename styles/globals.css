@@ -569,6 +569,10 @@ p {
   background: var(--black);
 }
 
+.gallery-frame img {
+  object-fit: contain;
+}
+
 .gallery-empty {
   display: grid;
   place-content: center;
