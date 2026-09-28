@@ -25,6 +25,7 @@ export default function ContactPage() {
           <p className="eyebrow">Start here</p>
           <h2>Every meaningful partnership begins with a conversation.</h2>
           <p>Tell us what you’re working on, what support you need, and where you’d like to go next.</p>
+          <p>Please complete the inquiry form or email info@theblackempowermentgroup.com to get started</p>
         </div>
         <InquiryForm />
       </section>
